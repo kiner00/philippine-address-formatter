@@ -1,0 +1,24 @@
+{
+    "name": "kiner/philippine-address-formatter",
+    "description": "A Laravel package for formatting Philippine addresses",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kiner\\PhilippineAddressFormatter\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kiner\\PhilippineAddressFormatter\\PhilippineAddressFormatterServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
