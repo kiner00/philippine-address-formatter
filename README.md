@@ -42,7 +42,7 @@ try {
 }
 ```
 
-# Using in a Laravel Controller
+## Using in a Laravel Controller
 
 ```bash
 namespace App\Http\Controllers;
@@ -80,7 +80,7 @@ class AddressController extends Controller
 }
 ```
 
-# Blade Template Example
+## Blade Template Example
 
 ```bash
 $formattedAddress = AddressFormatter::format($address);
@@ -97,7 +97,7 @@ In your Blade template:
 
 The package throws `InvalidAddressComponentException` if a required address component is missing or invalid. You can catch and handle this exception as shown in the examples above.
 
-# Testing
+## Testing
 
 To run the tests, use the following command:
 
@@ -105,28 +105,28 @@ To run the tests, use the following command:
 ./vendor/bin/phpunit
 ```
 
-# Requirements
+## Requirements
 
 PHP 8.0 or higher
 Laravel 9.x or 10.x
 
-# Contributing
+## Contributing
 
 Feel free to open issues or submit pull requests for improvements and bug fixes. Contributions are welcome!
 
-# License
+## License
 
 This package is open-sourced software licensed under the MIT license.
 
-# Author
+## Author
 
 Developed by Kiner. Feel free to contact me at kinermercurio@gmail.com for any questions or collaboration.
 
-# Support
+## Support
 
 If you find this package helpful, consider giving it a star on GitHub to show your support!
 
-# Future Improvements
+## Future Improvements
 
 Add support for additional address formats.
 Provide integration with popular validation libraries.
